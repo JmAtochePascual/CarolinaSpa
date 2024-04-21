@@ -1,0 +1,51 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.cita {
+  padding-block: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  background-image: url("../img/bg_citas.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: v.$blanco;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    padding-block: 10rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding-block: 15rem;
+  }
+
+  &__titulo {
+    font-size: 3rem;
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+
+  &__texto {
+    max-width: 60rem;
+    margin-inline: auto;
+    line-height: 2;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  &__enlace {
+    padding: .8rem 4.8rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: v.$blanco;
+    background-color: v.$primario;
+  }
+}

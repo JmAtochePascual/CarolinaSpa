@@ -1,0 +1,90 @@
+@use "../base/variables" as v;
+
+.header {
+  padding-top: 2.4rem;
+
+  &__barra {
+    margin-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+  }
+
+  &__sociales {
+    display: flex;
+    gap: .8rem;
+  }
+
+  &__social {
+
+    &::before {
+      content: " ";
+      width: 4rem;
+      height: 4rem;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    &:nth-child(1)::before {
+      background-image: url("../img/icono_facebook.svg");
+    }
+
+    &:nth-child(2)::before {
+      background-image: url("../img/icono_twitter.svg");
+    }
+
+    &:nth-child(3)::before {
+      background-image: url("../img/icono_instagram.svg");
+    }
+
+    &:nth-child(4)::before {
+      background-image: url("../img/icono_youtube.svg");
+    }
+
+    &:nth-child(5)::before {
+      background-image: url("../img/icono_tiktok.svg");
+    }
+  }
+
+  &__accesible {
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  &__line {
+    padding-block: .4rem;
+    background-color: v.$primario;
+  }
+
+  &__border {
+    padding-block: 1.6rem;
+    border-block: 2px dashed v.$blanco;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__link {
+    color: v.$blanco;
+  }
+}

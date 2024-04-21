@@ -1,42 +1,45 @@
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../src/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
 
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 600;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../src/fonts/Lato/Lato-Bold.ttf") format("truetype");
+}
 
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 700;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../src/fonts/Lato/Lato-Black.ttf") format("truetype");
+}
 
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 900;
-//   src: url("../../src/fonts/") format("truetype");
-// }
+@font-face {
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../src/fonts/Italianno/Italianno-Regular.ttf") format("truetype");
+}
+
 
 // Fuentes
-$fuente_principal: '', sans-serif;
+$fuente_principal: 'Lato', sans-serif;
+$fuente_cursiva: 'Italianno', sans-serif;
 $paragraph: 400 1.4rem/1.5 $fuente_principal;
 $paragraph-tablet: 400 1.6rem/1.5 $fuente_principal;
 $title1: 900 4rem/1.2 $fuente_principal;
-$title2: 900 3.6rem/1.2 $fuente_principal;
-$title3: 900 3.2rem/1.2 $fuente_principal;
+$title2: 900 3.2rem/1.2 $fuente_principal;
+$title3: 900 2.4rem/1.2 $fuente_principal;
 
 // Colores
-$primario: #e8505b;
-$secundario: #455a64;
+$primario: #8ed3cc;
+$secundario: #e082a8;
 $negro: #000;
 $blanco: #FFFFFF;
-$grisClaro: #eceeef;
+$gris: #979797;
+$grisClaro: #f8f8f8;

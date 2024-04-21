@@ -1,0 +1,33 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.footer {
+  padding: 3.2rem 0 2rem;
+  text-align: center;
+
+  &__grid {
+    margin-bottom: 1.6rem;
+    display: grid;
+    gap: 2.4rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__nombre {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  &__sociales--footer {
+    display: block;
+    margin-inline: auto;
+  }
+
+  &__copy {
+    padding-top: 2rem;
+    border-top: 1px solid darken(v.$grisClaro, 15%);
+    color: darken(v.$gris, 30%);
+  }
+}

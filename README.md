@@ -74,6 +74,6 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-Puedes ver el proyecto en funcionamiento [aquí](https://jmatochepacual.github.io/CarolinaSpa).
+Puedes ver el proyecto en funcionamiento [aquí](https://jmatochepascual.github.io/CarolinaSpa/).
 
 Todos los derechos reservados CarolinaSpa 2024 ©.

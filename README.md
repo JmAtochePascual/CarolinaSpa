@@ -12,7 +12,7 @@ Este proyecto es un sitio web diseñado para ofrecer servicios y productos de sp
 6. 🏗️[Contribución](#contribución)
 7. ✨[Licencia](#licencia)
 8. 🙈[Imagen de Referencia](#imagen-de-rereferencia)
-9. 🌐[Ver Proyecto en la WEB](#ver-proyecto-en-la-webb)
+9. 🌐[Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
 
 ## Descripción
 
